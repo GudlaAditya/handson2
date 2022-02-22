@@ -1,0 +1,925 @@
+<html>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Cognizant India-Digital Bussiness & Technology Services</title>
+
+</head>
+
+<body>
+
+  <!--Header Section-->
+  <header>
+
+    <!--Navbar section-->
+    <!--Top Navbar Section-->
+    <nav class="tnav">
+      <ul class="tul" style="margin-left:50px">
+        <li>
+          <a href="#">Careers</a>
+        </li>
+        <li>
+          <a href="#">News</a>
+        </li>
+        <li>
+          <a href="#">Events</a>
+        </li>
+        <li>
+          <a href="#">Investers</a>
+        </li>
+        <li>
+          <a href="#">|</a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-globe"></i></a>
+        </li>
+        <li>
+          <a href="#">Worldwide</a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-search"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--End of Top Navbar Section-->
+
+    <!--Main Navbar Section-->
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+      <label class="logo"> <a href="#"><img
+            src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Cognizant%27s_logo.svg" alt="Cognizant Logo"
+            style="max-width: 220px; width: 100%" /></a> </label>
+      <ul>
+        <li>
+          <a href="#" ]>Industries
+            <i class="fas fa-caret-down" style="color: #00b140"></i></a>
+        </li>
+        <li>
+          <a href="#">Services <i class="fas fa-caret-down" style="color: #00b140"></i></a>
+        </li>
+        <li>
+          <a href="#">Latest Thinking
+            <i class="fas fa-caret-down" style="color: #00b140"></i></a>
+        </li>
+        <li>
+          <a href="#">About <i class="fas fa-caret-down" style="color: #00b140"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <!--End of Main Navbar Section-->
+
+  </header>
+  <style>
+    * {
+      padding: 0;
+      margin: 0%;
+      text-decoration: none;
+      list-style: none;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+
+    .tnav {
+      background-color: #e6e6e6;
+      height: 50px;
+      width: 100%;
+    }
+
+    .tul li {
+      display: inline-block;
+      line-height: 50px;
+      margin: 0 5px;
+    }
+
+    .tul li a {
+      color: #000;
+      font-size: 17px;
+      padding: 3px 7px;
+      border-radius: 1px;
+    }
+
+    nav {
+      background-color: #fff;
+      height: 80px;
+      width: 100%;
+    }
+
+    nav ul {
+      float: right;
+      margin-right: 20px;
+    }
+
+    nav ul li {
+      display: inline-block;
+      line-height: 80px;
+      margin: 0 5px;
+    }
+
+    nav ul li a {
+      color: #000;
+      font-size: 17px;
+      padding: 7px 13px;
+      border-radius: 3px;
+    }
+
+    a:hover {
+      background: #1b9bff;
+      color: #fff;
+      transition: 0.5s;
+    }
+
+    .checkbtn {
+      font-size: 30px;
+      color: rgb(3, 17, 7);
+      float: right;
+      line-height: 80px;
+      margin-right: 40px;
+      cursor: pointer;
+      display: none;
+    }
+
+    #check {
+      display: none;
+    }
+
+    @media screen and (max-width: 925px) {
+      label.logo {
+        padding-left: 50px;
+      }
+
+      nav ul li a {
+        font-size: 16px;
+      }
+    }
+
+    @media screen and (max-width: 858px) {
+      .checkbtn {
+        display: block;
+      }
+
+      .tnav {
+        display: none;
+      }
+
+      ul {
+        position: fixed;
+        width: 100%;
+        height: 80vh;
+        top: 80px;
+        margin-top: 20px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+      }
+
+      nav ul li {
+        display: none;
+        margin: 50px 0;
+        line-height: 30px;
+      }
+
+      nav ul li a {
+        font-size: 20px;
+      }
+
+      a:hover {
+        background: none;
+        color: #0082e6;
+      }
+
+      #check:checked~ul {
+        left: 0;
+      }
+    }
+  </style>
+  <!--Navbar section-->
+
+
+  <!--carousel Section-->
+
+  </head>
+
+  <body>
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="https://www.cognizant.com/us/en/images/recruitment-desktop.jpg" style="width:100%">
+
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="https://www.cognizant.com/us/en/images/cloud-desktop.jpg" style="width:100%">
+
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="https://www.cognizant.com/us/en/images/ipa-desktop.jpg" style="width:100%">
+
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="https://www.cognizant.com/us/en/images/ipa-desktop.jpg" style="width:100%">
+
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+
+    
+  <style>
+    * {
+      box-sizing: border-box
+    }
+
+    body {
+      font-family: Verdana, sans-serif;
+      margin: 0
+    }
+
+    .mySlides {
+      display: none
+    }
+
+    img {
+      vertical-align: middle;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1500px;
+      position: relative;
+      margin: auto;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active,
+    .dot:hover {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+
+      .prev,
+      .next,
+      .text {
+        font-size: 11px
+      }
+    }
+  </style>
+
+ <!--carousel Section end-->
+
+    <!-- Paragraph-->
+    <div class="container">
+      <p class="quote" style="color: blue;">Cognizant helps companies modernize technology, reimagine processes and
+        transform experiences so they stay ahead in a fast-charging world.</p>
+    </div>
+    <!-- End of Paragraph-->
+
+    <!-- Horzontal Card Section -->
+    <div class="row" id="row1">
+      <div class="grid-item" id="con" style="margin-left: 5px;">
+        <h2 style="color: white">Improve lives with a career at Cognizant?</h2>
+        <p style="color: white">Join our team and you’ll take on projects .</p>
+        <button type="button" class="btn btn-success" style="margin-top: 30px;">Explore More</button>
+      </div>
+
+      <div class="grid-item1">
+        <img src="https://www.cognizant.com/us/en/images/hp-engineering-exc-recruitment-top-india.png" class="img-fluid"
+          style="margin-top: 20px; margin-bottom: 20px; width: 500px; height: 300px;">
+
+      </div>
+      <style>
+        @media screen and (max-width:768px) {
+          .container {
+            text-align: center;
+            width: fit-content;
+            box-sizing: content-box;
+
+            display: block;
+          }
+
+          .grid-item1 {
+            width: 50px;
+            margin-left: -10px;
+          }
+        }
+      </style>
+    </div>
+
+
+    <!-- Horzontal Card Section -->
+
+
+
+    <!--Cards Section content-->
+
+    <div class="cards">
+      <h2 style="color: blue; margin-left: 20px;">Cognizant in India</h2>
+      <p style="margin-left: 20px;">See how Cognizant engineers your modern business.</p>
+      <div class="row2" style="margin-left:20px">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+
+          <div class="card1" style="width: 28rem;height:18rem;margin-top: 20px;" id="image1">
+
+            <div class="card-body" style="margin-left: 20px;">
+              <p class="cf">Cognizant combats COVID-19 with Operation C3</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+
+          <div class="card" style="width: 28rem; height:18rem; margin-top: 20px;" id="image2">
+            <div class="card-body" style="margin-left: 20px;">
+              <p class="cf">Locate our offices</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row1" style="margin-bottom: 10px; margin-top: 50px;margin-left:20px">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+
+          <div style="width: 28rem;height:18rem; margin-top: 20px;margin-bottom: 20px;" id="image3">
+            <div class="card-body" style="margin-left: 20px;">
+              <p class="cf">Cognizant named a Top Employer of India</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+
+          <div class="card" style="width: 28rem; height:18rem; margin-top: 20px; margin-bottom:20px;" id="image4">
+            <div class="card-body" style="margin-left: 20px;">
+              <p class="cf">An Indian pharmaceutical company's journey to cloud</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      .cards {
+        background-color: lightgray;
+        margin-top: 20px;
+      }
+
+      @media screen and (max-width: 480px) {
+
+        .row1,
+        .row2 {
+          max-width: 960px;
+          margin: 0 auto 30px;
+        }
+      }
+
+      .quote {
+        margin-top: 2.8rem;
+        margin-bottom: 2.8rem;
+        font-size: 32px;
+        line-height: 4rem;
+      }
+
+      @media (min-width: 0px) and (max-width: 480px) {
+        .quote {
+          margin-top: 1.5rem;
+          margin-bottom: 1.5rem;
+          font-size: 18px;
+          line-height: 2rem;
+        }
+      }
+
+      @media (min-width: 481px) and (max-width: 760px) {
+        .quote {
+          margin-top: 1.8rem;
+          margin-bottom: 1.8rem;
+          font-size: 25px;
+          line-height: 3rem;
+        }
+      }
+    </style>
+    <!--Cards Section content end-->
+
+
+    <!--Cards Section-->
+
+    <div class="row4">
+      <h1 style="color: blue; margin-left: 20px;">Engineering excellence</h1>
+      <p style="margin-left: 20px;">We deliver leadership excellence by partnering with the best in the business.</p>
+      <div class="flexcontainer">
+
+        <div class="left" style="width: 16rem; background-color: white;margin-bottom: 20px;">
+          <img class="card-img-top1"
+            src="https://www.cognizant.com/content/dam/cognizant/en_us/in/dotcom/images/data-modernization-the-foundation-for-digital-transformation-th.jpg"
+            width="100" height="200" alt="Card image cap" style="width:16rem;">
+          <div style="margin-left: 10px;">
+            <p class="card-title">E-BOOK</p>
+            <H4 class="card-text" style="color: blue;">Data Modernization: The foundation for digital transformation
+            </H4>
+            <P>How leading organizations transformed their digital core.</P>
+            <a href="#" class="btn btn-primary">LEARN MORE</a>
+          </div>
+
+        </div>
+
+        <div class="middle" style="width: 16rem; background-color: white;margin-bottom: 20px;">
+          <img class="card-img-top2"
+            src="https://www.cognizant.com/content/dam/cognizant/en_us/dotcom/images/cx-ex-engineer-excellence.jpg"
+            alt="Card image cap" style="width:16rem">
+          <div style="margin-left: 10px;">
+            <p class="card-title">GREAT EXPERIENCE</p>
+            <h4 class="card-text" style="color: blue;"> Great CX starts with great EX</h4>
+            <p>Customer experience leaders drive results by focusing on employee experience first, enabling an
+              inclusive,
+              data-driven career model.</p>
+            <a href="#" class="btn btn-primary">LEARN MORE</a>
+          </div>
+        </div>
+
+        <div class="right" style="width: 16rem;background-color: white;margin-bottom: 20px; ">
+          <img class="card-img-top3"
+            src="https://www.cognizant.com/content/dam/cognizant/en_us/in/dotcom/images/boosting-sales-and-customer-loyalty-th.jpg"
+            width="200" height="200" alt="Card image cap" style="width:16rem">
+          <div style="margin-left: 10px;">
+            <p class="card-title">CASE STUDY</p>
+            <h4 style="color: blue;">Boosting sales with highly personalized campaigns</h4>
+            <p>Luxury car company makes the right offer at the right time through the right channel</p>
+            <a href="#" class="btn btn-primary">LEARN MORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>
+      .card1 {
+
+        background-image: url("https://www.cognizant.com/content/dam/cognizant/en_us/dotcom/logos/operation-c3-logo.jpg");
+        background-size: cover;
+      }
+
+      #image2 {
+        background-image: url("https://www.cognizant.com/content/dam/cognizant/en_us/in/dotcom/images/india-office-chennai-tile.jpg");
+        background-size: cover;
+      }
+
+      #image3 {
+        background-image: url("https://www.cognizant.com/content/dam/cognizant/en_us/in/dotcom/images/top-employer-in-india-tile-th.jpg");
+        background-size: cover;
+      }
+
+      #image4 {
+        background-image: url("https://www.cognizant.com/content/dam/cognizant/en_us/in/dotcom/images/migrating-to-greater-sap-savings-th.jpg");
+        background-size: cover;
+      }
+
+      .cf {
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 5%;
+
+      }
+
+      @media (max-width: 360px) {
+        .cf {
+          font-size: .8rem;
+          font-weight: bold;
+          color: white;
+          background-color: rgba(0, 0, 0, 0.5);
+          padding: 3%;
+        }
+      }
+    </style>
+    <!--Cards Section-->
+
+
+    <!-- Form Section-->
+    <div class="row justify-content-center">
+      <h2 style="color: blue;">GET ANSWERS TO YOUR QUESTIONS</h2>
+    </div>
+    <div class="row justify-content-center">
+      <p>Our clients turn to us to help them reimagine ways of working with technology.</p>
+    </div>
+
+    <div>
+      <form action="/action_page.php">
+        <label for="fname"> Name</label>
+        <input type="text" id="fname" name="firstname" placeholder=" name..">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Email">
+        <label for="organisation">Organisation</label>
+        <input type="text" id="organisation" name="lastname" placeholder="Organisation">
+        <label for="number">Contact Number</label>
+        <input type="text" id="number" placeholder="Contact Number">
+        <label for="country">Region</label>
+        <select id="country" name="country">
+          <option value="Choose">Choose..</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+
+        <label for="Inquiry">Inquiry Type</label>
+        <select id="Inquiry" name="Inquiry">
+          <option value="Choose">Choose..</option>
+          <option value="IT">IT</option>
+          <option value="Banking">Banking</option>
+          <option value="None">None</option>
+        </select>
+        <label for="message">Message</label>
+        <input type="text" id="message" placeholder="Contact Number">
+        <input type="submit" value="Submit">
+      </form>
+      <div class="row justify-content-center" style="margin-left:20px;">
+        <p>This site is protected by reCAPTCHA and the Google <a href="#" style="color: green;"><b> Privacy
+              policy</b></a>
+          and <a href="#" style="color: green;"><b>Terms of Service</b></a> apply.</p>
+      </div>
+    </div>
+    <style>
+      input[type=text],
+      select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      input[type=submit] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+    </style>
+    <!-- End of Form Section-->
+
+
+    <!---Footer Section-->
+    <footer class="cogni-footer" style="font-family: sans-serif; margin-left: 20px;margin-top: 10px;">
+      <div class="frow">
+        <div class="big9">
+          <div class="frow1">
+
+            <div class="frow11">
+
+              <h5 style="color: #0033a0; font-size: 18px; margin-top: 20px;margin-right: 30px;margin-top: -5px;">
+                <b>INDUSTRIES</b>
+              </h5>
+
+              <p style="line-height: 200%;margin-top: 5px;">Automotive</p>
+              <p style="line-height: 200%">Banking</p>
+              <p style="line-height: 200%">Capital Markets</p>
+              <p style="line-height: 200%">Communications, Media & Technology</p>
+              <p style="line-height: 200%">Consumer Goods</p>
+              <p style="line-height: 200%;margin-bottom: 5px;">Education</p>
+            </div>
+            <div class="frow12">
+              <h5>&nbsp;</h5>
+              <h5>&nbsp;</h5>
+              <p style="line-height: 200%;margin-left: 10px;">Healthcare</p>
+              <p style="line-height: 200%;margin-left:10px;">Information Services</p>
+              <p style="line-height: 200%;margin-left: 10px">Insurance</p>
+              <p style="line-height: 200%;margin-left: 10px">Life Sciences</p>
+              <p style="line-height: 200%;margin-left: 10px">Manufacturing</p>
+            </div>
+
+            <div class="frow13">
+              <h5>&nbsp;</h5>
+              <h5>&nbsp;</h5>
+              <p style="line-height: 200%;margin-right: 20px;">Oil & Gas</p>
+              <p style="line-height: 200%;margin-right: 20px;">Retail</p>
+              <p style="line-height: 200%;margin-right: 20px;">Transportation & Logistics</p>
+              <p style="line-height: 200%;margin-right: 20px;">Travel & Hospitality</p>
+              <p style="line-height: 200%;margin-right: 20px;">Utilities</p>
+            </div>
+          </div>
+
+          <div class="frow2">
+            <div class="frow21">
+              <h5 style="color: #0033a0; font-size: 20px; font-size: 18px;margin-right:30px; "><b> SERVICES</b></h5>
+
+
+              <p style="line-height: 200%">Application Services & Modernization</p>
+              <p style="line-height: 200%">Artificial Intelligence</p>
+              <p style="line-height: 200%">Business Process Services</p>
+              <p style="line-height: 200%">Cloud Enablement</p>
+              <p style="line-height: 200%">Core Modernization</p>
+              <p style="line-height: 200%;margin-bottom:5px">Digital Experience</p>
+            </div>
+            <div class="frow22">
+              <h5>&nbsp;</h5>
+              <h5>&nbsp;</h5>
+              <p style="line-height: 200%;margin-left: 10px">Digital Strategy</p>
+              <p style="line-height: 200%;margin-left: 10px">Enterprise Application Services</p>
+              <p style="line-height: 200%;margin-left: 10px">Enterprise Services</p>
+              <p style="line-height:200%;margin-left: 10px">Industry+</p>
+              <p style="line-height: 200%;margin-left: 10px">Industry & Platform Solutions</p>
+
+            </div>
+            <div class="frow23">
+              <h5>&nbsp;</h5>
+              <h5>&nbsp;</h5>
+              <p style="line-height: 200%;margin-right: 20px;">Infrastructure Services</p>
+              <p style="line-height: 200%;margin-right: 20px;">Intelligent Process</p>
+              <p style="line-height: 200%;margin-right: 20px;">Quality Engineering & Assurance</p>
+              <p style="line-height: 200%;margin-right: 20px;">Security</p>
+              <p style="line-height: 200%;margin-right: 20px;">Software Product Engineering</p>
+            </div>
+          </div>
+          <div class="frow3">
+            <div class="frow31">
+              <h5 style="color: #0033a0; font-size: 20px; font-size: 18px;margin-bottom: 20px;margin-right:30px; ">
+                <b>CONSULTING LATEST THINKING</b>
+              </h5>
+              <p style="color: #0033a0; font-size: 18px; font-weight: 500;">Our Media & Publications</p>
+              <p style="line-height: 200%">All Latest Thinking</p>
+              <p style="line-height: 200%">Browse Case Studies</p>
+              <p style="line-height: 200%">Cognizant Podcasts</p>
+              <p style="line-height: 200%">Cognizant Journal</p>
+              <p style="line-height: 200%">Digital Cognizant Blog</p>
+              <p style="line-height: 200%">Infographics</p>
+              <p style="line-height: 200%">Perspectives</p>
+            </div>
+            <div class="frow32">
+              <h5>&nbsp;</h5>
+              <h5>&nbsp;</h5>
+              <p style="color: #0033a0; font-size: 18px; font-weight: 500;margin-left: 10px ">Key Themes</p>
+              <p style="line-height: 200%;margin-left: 10px">Digital Maturity Research</p>
+              <p style="line-height: 200%;margin-left: 10px">World Economic Forum-Davos</p>
+
+            </div>
+            <div class="frow33">
+              <h5>&nbsp;</h5>
+              <h5>&nbsp;</h5>
+              <p style="color: #0033a0; font-size: 18px; font-weight: 500;margin-right: 20px;">Centre for the Future of
+                Work</p>
+              <p style="line-height: 200%;margin-right: 20px;">21 More Jobs of the Future </p>
+              <p style="line-height: 200%;margin-right: 20px;">Digital Workforce of the Future </p>
+              <p style="line-height: 200%;margin-right: 20px;"> Explore the Future of Work </p>
+              <p style="line-height: 200%;margin-right: 20px;"> Job of the Future Index </p>
+              <p style="line-height: 200%;margin-right: 20px;"> Our Post-COVID Future </p>
+              <p style="line-height: 200%;margin-right: 20px;"> The Work Ahead </p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <aside>
+        <div class="big3" style="margin-left:20px" ;>
+
+          <h5 style="color: #0033a0; font-size: 20px; font-size: 18px;"><b>ABOUT COGNIZANT</b></h5>
+          <h5>&nbsp;</h5>
+          <p style="line-height: 200%;margin-top:-10px;">2020 in Focus</p>
+          <p style="line-height: 200%"> Be.Cognizant</p>
+          <p style="line-height: 200%"> Board of Directors</p>
+          <p style="line-height: 200%"> Client Briefing Program</p>
+          <p style="line-height: 200%"> Cognizant Events</p>
+          <p style="line-height: 200%"> Contact Us</p>
+          <p style="line-height: 200%"> Corporate Governance</p>
+          <p style="line-height: 200%"> Corporate Integrity</p>
+          <p style="line-height: 200%"> Culture & Values</p>
+          <p style="line-height: 200%"> Diversity & Inclusion</p>
+          <p style="line-height: 200%"> ESG </p>
+          <p style="line-height: 200%"> Leadership Team </p>
+          <p style="line-height: 200%"> News & Press Releases </p>
+          <p style="line-height: 200%"> Partnerships </p>
+          <p style="line-height: 200%"> Public Policy </p>
+          <p style="line-height: 200%"> Sponsorships </p>
+          <p style="line-height: 200%"> Talent Worldwide </p>
+          <p style="line-height: 200%"> Women Empowered</p>
+          <h5 style="color: #0033a0; font-size: 20px; font-weight: 500;">GLOSSARY</h5>
+          <h5 style="color: #0033a0; font-size: 20px; font-weight: 500;">INFORMATION FOR SUPPLIERS</h5>
+          <p style="line-height: 200%"> Procure-to-Pay </p>
+          <p> Procure-to-Pay </p>
+        </div>
+      </aside>
+    </footer>
+    <style>
+      #row1 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+        grid-gap: 30px;
+        background-color: blue;
+      }
+
+      .row4 {
+        background-color: lightgray;
+      }
+
+      .flexcontainer {
+
+        display: flex;
+        gap: 200px;
+        margin-left: 100px;
+      }
+
+      @media screen and (max-width: 34rem) {
+        .flexcontainer {
+          display: grid;
+          grid-template-columns: 1fr;
+          margin-left: 80px;
+        }
+      }
+
+      .footer {
+        width: 100%;
+      }
+
+      .frow1,
+      .frow2,
+      .frow3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+      }
+
+      .frow {
+        float: left;
+      }
+
+      @media screen and (max-width: 34rem) {
+
+        .frow1,
+        .frow2,
+        .frow3 {
+          grid-template-columns: 1fr;
+        }
+
+        .frow {
+          clear: both;
+        }
+
+        .cogni-footer {
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .row1,
+      .row2 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+        gap: 10px;
+      }
+    </style>
+    <!--- End of Footer Section-->
+  </body>
+
+</html>
